@@ -7,6 +7,7 @@ node default {
 }
 node 'master' {
   include role::master_server
+  include role: dockeragent
 }
 
 node /^web/ {
