@@ -1,4 +1,4 @@
 class role::master_server {
   include profile::base
-  include profile::dockeragent
+  include profile::agent_nodes
 }
